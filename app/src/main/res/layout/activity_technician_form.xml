@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+
+    tools:context=".TechnicianFormActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:src="@drawable/tech_logo" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Tell us what you can do?"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Service category"
+        android:textSize="18sp" />
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/service_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_box_height"
+        android:background="@drawable/edit_text_back" />
+
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Service Price"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_box_height"
+        android:background="@drawable/edit_text_back"
+        android:maxLines="6"
+        android:inputType="numberDecimal"
+        android:paddingHorizontal="10dp" />
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Service Description"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/service_description"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/edit_text_back"
+        android:gravity="top"
+        android:padding="3dp"
+        android:hint="e.g. I offer good cleaning service"
+        android:maxLines="6"
+
+        android:inputType="textMultiLine"
+        android:paddingHorizontal="10dp" />
+
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Facebook Account"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_box_height"
+
+        android:background="@drawable/edit_text_back"
+        android:hint="Optional"
+        android:maxLines="6"
+        android:inputType="textMultiLine"
+        android:paddingHorizontal="10dp" />
+
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Twitter Account"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_box_height"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_back"
+        android:hint="Optional"
+        android:maxLines="6"
+        android:inputType="textMultiLine"
+        android:paddingHorizontal="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:gravity="center"
+        android:paddingHorizontal="75dp"
+        android:paddingVertical="5dp"
+        android:shadowColor="#636262"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:text="Apply"
+        android:backgroundTint="@color/hit_color"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

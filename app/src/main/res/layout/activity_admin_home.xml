@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".AdminHomeActivity">
+
+    <RelativeLayout
+        android:layout_marginBottom="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tech_logo"
+            android:visibility="invisible" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:src="@drawable/logo"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:text="Welcome Admin"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_pending_accounts"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:shadowColor="#7A7777"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:drawableStart="@drawable/ic_baseline_pending_actions_40"
+        android:paddingHorizontal="35dp"
+        android:backgroundTint="#FFC107"
+        android:text="Pending Accounts"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_active_accounts"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:shadowColor="#7A7777"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:drawableStart="@drawable/ic_baseline_thumb_up_24"
+        android:paddingHorizontal="35dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Active Accounts"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_rejected_accounts"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:shadowColor="#7A7777"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:drawableStart="@drawable/ic_baseline_error_outline_24"
+        android:paddingHorizontal="35dp"
+        android:backgroundTint="#EA777B"
+        android:text="Rejected Accounts"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_logout"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:shadowColor="#7A7777"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:drawableStart="@drawable/ic_baseline_login_24"
+        android:paddingHorizontal="35dp"
+        android:backgroundTint="#D0DDF3"
+        android:text="Log out"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

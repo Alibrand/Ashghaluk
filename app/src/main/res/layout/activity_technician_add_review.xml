@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".TechnicianAddReviewActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave A review"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tell other people how do you find this service"
+        android:textSize="20sp"
+         />
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Full Name"
+        android:textSize="18sp" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_box_height"
+        android:background="@drawable/edit_text_back"
+        android:inputType="text"
+        android:hint=""
+        android:layout_marginBottom="15dp"
+        android:paddingHorizontal="10dp" />
+
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Rate your Experience"
+        android:textSize="18sp" />
+    <RatingBar
+        android:id="@+id/rating"
+        android:numStars="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Your review"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/service_review"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/edit_text_back"
+        android:gravity="top"
+        android:padding="3dp"
+        android:maxLines="6"
+        android:inputType="textMultiLine"
+        android:paddingHorizontal="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:gravity="center"
+        android:paddingHorizontal="75dp"
+        android:paddingVertical="5dp"
+        android:shadowColor="#636262"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:backgroundTint="@color/hit_color"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.appcompat.widget.LinearLayoutCompat
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="15dp"
+    tools:context=".TechnicianAccountActivity">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tech_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:text="Technician Name"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+    <RatingBar
+        android:isIndicator="true"
+        android:id="@+id/rating"
+        android:numStars="5"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Category: "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="18sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Service Description: "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/service_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18sp" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Region: "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="region"
+            android:textSize="18sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Completion Rate: "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/completion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="region"
+            android:textSize="18sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Price: "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="region"
+            android:textSize="18sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="15dp"
+        android:id="@+id/button_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:shadowColor="#7A7777"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:drawableStart="@drawable/ic_baseline_library_add_24"
+        android:paddingHorizontal="35dp"
+        android:backgroundTint="#ABFFEB"
+        android:text="Request Service"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_call"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:shadowColor="#7A7777"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:drawableStart="@drawable/ic_baseline_call_24"
+        android:paddingHorizontal="35dp"
+        android:backgroundTint="#88B6DF"
+        android:text="Call"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_chat"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:shadowColor="#7A7777"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:drawableStart="@drawable/ic_baseline_chat_24"
+        android:paddingHorizontal="35dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Chat"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_facebook"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button_back"
+            android:textAllCaps="false"
+            android:shadowColor="#7A7777"
+            android:shadowDx="2"
+            android:shadowDy="8"
+            android:shadowRadius="8"
+            android:layout_marginRight="5dp"
+            android:drawableStart="@drawable/circle_facebook_icon"
+            android:paddingHorizontal="35dp"
+            android:backgroundTint="#EFF8FB"
+            android:paddingVertical="5dp"
+            android:text="Facebook"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_twitter"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button_back"
+            android:textAllCaps="false"
+            android:shadowColor="#7A7777"
+            android:shadowDx="2"
+            android:shadowDy="8"
+            android:shadowRadius="8"
+            android:layout_marginLeft="5dp"
+            android:drawableStart="@drawable/circle_twitter_icon"
+            android:paddingHorizontal="35dp"
+            android:backgroundTint="#EFF8FB"
+            android:paddingVertical="5dp"
+            android:text="Twitter"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:shadowColor="#7A7777"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:drawableStart="@drawable/ic_baseline_rate_review_24"
+        android:paddingHorizontal="35dp"
+        android:backgroundTint="#FFC107"
+        android:text="Reviews"/>
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "547531022494",
+    "project_id": "ashghaluk",
+    "storage_bucket": "ashghaluk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547531022494:android:3005d3d1f6b7c064089b8f",
+        "android_client_info": {
+          "package_name": "com.ksacp2022.ashghaluk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547531022494-33pls3rd4mntp769pqs6utfqunbvopch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAir2CF6vIwC60FaxnHE3saiIhdG7d4cX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547531022494-33pls3rd4mntp769pqs6utfqunbvopch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
